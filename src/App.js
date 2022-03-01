@@ -1,12 +1,8 @@
 import React from "react";
-import "./index.css";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Projeto</h1>
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;

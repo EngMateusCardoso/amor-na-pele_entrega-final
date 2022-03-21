@@ -25,7 +25,7 @@ export default (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="justify-content-center">
             <NavItem>
-              <NavLink class="menu" href="/Home">
+              <NavLink class="menu" href="/">
                  Home
               </NavLink>
             </NavItem>

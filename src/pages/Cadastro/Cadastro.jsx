@@ -1,16 +1,10 @@
 import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import Header from "../../Components/Header/Header";
-import Newsletter from "../../Components/Newsletter/Newsletter";
 import cardcadastropessoa from "../../assets/img/cardcadastropessoa.jpg";
 import cardcadastroempresa from "../../assets/img/cardcadastroempresa.jpg";
 import "./Cadastro.css";
 
 export default () => {
     return (
-        <Header />,
-
-        
         <section class="album py-5 bg-light">
             <div class="container">
                 <div class="row">

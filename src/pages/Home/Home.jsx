@@ -7,7 +7,6 @@ import Homenumeros from "../../Components/Homenumeros/Homenumeros";
 export default () => {
     return(
         <>
-            <h1>home page</h1>
             <Carrossel />
             <Homecards />
             <Homenumeros />

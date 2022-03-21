@@ -6,18 +6,18 @@ import "./Homecards.css";
 export default () => {
     return (
         <section id="institucional">
-            <div class="col-md-12">
+            <div className="col-md-12">
                 <div
-                    class="card h-100 g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col-auto d-none d-lg-block">
+                    className="card h-100 g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div className="col-auto d-none d-lg-block">
                         <img
                             src={logotipo}
-                            class="img-fluid rounded-start"
+                            className="img-fluid rounded-start"
                             alt="logotipo Amor na Pele"
                             width="200" />
                     </div>
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="d-inline-block mb-2">Quem somos</h3>
+                    <div className="col p-4 d-flex flex-column position-static">
+                        <h3 className="d-inline-block mb-2">Quem somos</h3>
                         <p>Somos um grupo de estudantes de tecnologia que acredita no poder
                             da conexão entre histórias e pessoas. Também acreditamos que a
                             autoestima está conectada com saúde, bem-estar e qualidade de
@@ -27,10 +27,10 @@ export default () => {
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
+                    <div className="card h-100">
+                        <div className="card-body">
                             <h3>Missão</h3>
                             <p>Nossa missão é alcançar mulheres que necessitem e, através de
                                 nossos parceiros, ajudar a resgatar a autoestima e confiança
@@ -39,9 +39,9 @@ export default () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
+                <div className="col">
+                    <div className="card h-100">
+                        <div className="card-body">
                             <h3>Visão</h3>
                             <p>Proporcionar transformações positivas na autoestima de cada
                                 mulher atendida, de forma que sintam-se seguras e confiantes
@@ -49,9 +49,9 @@ export default () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
+                <div className="col">
+                    <div className="card h-100">
+                        <div className="card-body">
                             <h3>Valores</h3>
                             <p>Os valores que defendemos são o acolhimento, a segurança, o
                                 bem-estar e a autoestima.</p>

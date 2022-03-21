@@ -5,43 +5,43 @@ import logotipo from "../../assets/img/logotipo.png";
 export default () => {
     return (
 
-        <section class="container bg-tranparent sm-shadow">
+        <section className="container bg-tranparent sm-shadow">
             {/*Formulário de contato*/}
-            <h1 class="titleForm">Contato</h1>
-            <div class="row">
-                <div class="col-md-4 order-md-1">
+            <h1 className="titleForm">Contato</h1>
+            <div className="row">
+                <div className="col-md-4 order-md-1">
                     <div id="img-form">
                         <img src={logotipo} alt="logotipo Amor na pele" />
                     </div>
                 </div>
-                <div class="col-md-8 order-md-2">
-                    <form class="cardForm">
-                        <div class="form-group">
+                <div className="col-md-8 order-md-2">
+                    <form className="cardForm">
+                        <div className="form-group">
                             <label for="inputNome">Nome</label>
                             <input
                                 type="text"
-                                class="form-control"
+                                className="form-control"
                                 id="inputNome"
                                 placeholder="Nome" />
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="inputEmail">Endereço de e-mail</label>
                             <input
                                 type="email"
-                                class="form-control"
+                                className="form-control"
                                 id="inputEmail"
                                 placeholder="email@exemplo.com" />
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="textAreaMensagem">Mensagem</label>
                             <textarea
-                                class="form-control"
+                                className="form-control"
                                 id="textAreaMensagem"
                                 placeholder="Mensagem..."
                                 rows="3">
                             </textarea>
                         </div>
-                        <a href="#" class="btn btn-dark">Enviar</a>
+                        <a href="#" className="btn btn-dark">Enviar</a>
                     </form>
                 </div>
             </div>

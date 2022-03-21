@@ -1,26 +1,7 @@
 import React from "react";
+import { Navbar, NavItem, NavbarToggler, Collapse, NavLink, Nav, NavbarBrand } from "reactstrap";
+import Logo from "../../assets/img/logo_menu.png";
 
-import {
-  Navbar,
-  NavItem,
-  NavbarToggler,
-  Collapse,
-  NavLink,
-  Nav,
-  NavbarBrand,
-} from "reactstrap";
-//import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-
-import Logo from "../img/logo_menu.png";
-
-/*
-import Home from "../pages/Home";
-import Cadastro from "../pages/Cadastro";
-import Parceiros from "../pages/Parceiros";
-import Contato from "../pages/Contato";
-import Links from "../pages/Links";
-import Login from "../pages/Login";
-*/
 
 export default (props) => {
   // Collapse isOpen State
@@ -44,32 +25,32 @@ export default (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="justify-content-center">
             <NavItem>
-              <NavLink class="menu" to="/">
-                Home
+              <NavLink class="menu" href="/Home">
+                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" to="/cadastro">
+              <NavLink class="menu" href="/cadastro">
                 Cadastro
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" to="/parceiros">
+              <NavLink class="menu" href="/Parceiros">
                 Parceiros
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" to="/contato">
+              <NavLink class="menu" href="/Contato">
                 Contato
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" to="/links">
+              <NavLink class="menu" href="/Links">
                 Links
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" to="/login">
+              <NavLink class="menu" href="/Login">
                 Login
               </NavLink>
             </NavItem>
@@ -80,15 +61,8 @@ export default (props) => {
   );
 };
 
-/*
-    <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/parceiros" element={<Parceiros />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/links" element={<Links />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-    </Router>
-*/
+
+
+
+
+

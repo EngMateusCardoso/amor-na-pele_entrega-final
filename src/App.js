@@ -1,8 +1,15 @@
 import React from "react";
-import Header from "./components/Header";
+import { Routes } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Newsletter from "./Components/Newsletter/Newsletter";
 
 function App() {
-  return <Header />;
+  return (
+    <Header />
+   /* <Newsletter />,
+    <Footer />*/
+  );
 }
 
 export default App;

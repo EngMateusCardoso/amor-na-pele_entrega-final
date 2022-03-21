@@ -1,0 +1,13 @@
+
+#footer {
+    background-color: #058177;
+    padding: 20px;
+    position:absolute;
+	  bottom:0;
+	  width:100%;
+}
+
+#footer p, #footer ul li a {
+  color: #fff;
+  text-align: center;
+}

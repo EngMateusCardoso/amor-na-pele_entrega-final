@@ -1,0 +1,72 @@
+.card-title {
+    color: white;
+    font-size: 30px;
+}
+
+.card-text {
+    color: #058177;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card, #formLogin {
+    padding: 10px;
+    text-align: center;
+}
+
+.titleForm, .modal-title {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  text-align: center;
+  color: #e23d8c;
+  margin-bottom: 40px;
+}
+
+label {
+  color: #e23d8c;
+  font-weight: bolder;
+}
+
+.cardForm {
+  margin-right: 2vw;
+  margin-left: 2vw;
+  padding: 15px 40px;
+  background-color: #fae9ee;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(212, 197, 197, 0.897);
+}
+
+.cardForm input, .cardForm textarea {
+  margin-bottom: 25px;
+  border: 1px solid #999;
+}
+
+.cardForm input:focus, .cardForm textarea:focus {
+  border-color: #e23d8c;
+}
+
+#img-form img {
+  width: 100%;
+  padding: 15px;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+#btnmodal {
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: 7px 13px;
+}
+
+a.active, a:hover, #btnmodal:hover {
+    transition: 0.5s;
+    color: #feaec9 !important;
+}
+
+.btn {
+    background-color: #058177 !important;
+    border: none;
+}

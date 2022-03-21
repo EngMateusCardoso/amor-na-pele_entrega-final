@@ -3,7 +3,6 @@ import bannerprincipal from "../../assets/img/bannerprincipal.png";
 import bannerprincipal2 from "../../assets/img/bannerprincipal2.png";
 import "./Carrossel.css";
 
-
 export default () => {
     return (
         <section>

@@ -1,5 +1,4 @@
 import Logo from "../../assets/img/logo_menu.png";
-import "./Footer.css";
 
 export default () => {
   return (

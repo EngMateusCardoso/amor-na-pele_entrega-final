@@ -3,14 +3,14 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Newsletter from "./Components/Newsletter/Newsletter";
 
-import Home from "./pages/Home/Home"
-import Cadastro from "./pages/Cadastro/Cadastro"
-import Contato from "./pages/Contato/Contato"
-import Links from "./pages/Links/Links"
-import Parceiros from "./pages/Parceiros/Parceiros"
-import Login from "./pages/Login/Login"
+import Home from "./pages/Home/Home";
+import Cadastro from "./pages/Cadastro/Cadastro";
+import Contato from "./pages/Contato/Contato";
+import Links from "./pages/Links/Links";
+import Parceiros from "./pages/Parceiros/Parceiros";
+import Login from "./pages/Login/Login";
 
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (

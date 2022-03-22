@@ -1,0 +1,18 @@
+#btnmodal {
+  font-size: larger;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 7px 13px;
+}
+
+a.active,
+a:hover,
+#btnmodal:hover {
+  transition: 0.5s;
+  color: #feaec9 !important;
+}
+
+.btn {
+  background-color: #058177 !important;
+  border: none;
+}

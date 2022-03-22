@@ -1,6 +1,5 @@
 import React from "react";
 import logotipo from "../../assets/img/logotipo.png";
-import "./Homecards.css";
 
 export default () => {
   return (

@@ -1,7 +1,14 @@
 import React from "react";
-import { Navbar, NavItem, NavbarToggler, Collapse, NavLink, Nav, NavbarBrand } from "reactstrap";
+import {
+  Navbar,
+  NavItem,
+  NavbarToggler,
+  Collapse,
+  NavLink,
+  Nav,
+  NavbarBrand,
+} from "reactstrap";
 import Logo from "../../assets/img/logo_menu.png";
-
 
 export default (props) => {
   // Collapse isOpen State
@@ -26,7 +33,7 @@ export default (props) => {
           <Nav className="justify-content-center">
             <NavItem>
               <NavLink class="menu" href="/">
-                 Home
+                Home
               </NavLink>
             </NavItem>
             <NavItem>
@@ -60,9 +67,3 @@ export default (props) => {
     </div>
   );
 };
-
-
-
-
-
-

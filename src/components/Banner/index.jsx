@@ -1,7 +1,7 @@
 import React from "react";
 import Parceiros from "../../assets/img/parceiros.png";
 
-export default (props) => {
+const index = (props) => {
   return (
     <div className="px-1 pt-1 my-1 text-center">
       <div className="card text-white">
@@ -22,3 +22,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default index;

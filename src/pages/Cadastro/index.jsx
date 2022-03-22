@@ -14,7 +14,7 @@ import {
   CardGroup,
 } from "reactstrap";
 
-export default () => {
+const Cadastro = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
@@ -34,7 +34,6 @@ export default () => {
                   />
                   <div className="card-body">
                     <CardHeader>
-                      <h5 className="card-title"></h5>
                       <p className="card-text">Cadastrar Mulher</p>
                       <ButtonToggle eventKey="0" onClick={toggle}>
                         Cadastrar
@@ -59,7 +58,6 @@ export default () => {
                   />
                   <div className="card-body">
                     <CardHeader>
-                      <h5 className="card-title"></h5>
                       <p className="card-text">Cadastrar Empresa</p>
                       <ButtonToggle eventKey="1" onClick={toggle}>
                         Cadastrar
@@ -81,3 +79,5 @@ export default () => {
     </section>
   );
 };
+
+export default Cadastro;

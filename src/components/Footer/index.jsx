@@ -1,6 +1,6 @@
 import Logo from "../../assets/img/logo_menu.png";
 
-const index = (props) =>  {
+const index = (props) => {
   return (
     <footer id="footer">
       <div className="row">

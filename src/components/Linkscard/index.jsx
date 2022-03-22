@@ -12,6 +12,7 @@ const index = (props) => {
           className="btn btn-dark"
           href={props.site}
           role="button"
+          rel="noreferrer"
           target="_blank"
         >
           Mais detalhes

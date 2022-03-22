@@ -3,7 +3,7 @@ import Banner from "../../components/Banner";
 import CardVertical from "../../components/CardVertical";
 import Parceiro from "../../assets/img/logotipo.png";
 
-export default () => {
+const index = (props) => {
   return (
     <>
       <Banner></Banner>
@@ -17,3 +17,5 @@ export default () => {
     </>
   );
 };
+
+export default index;

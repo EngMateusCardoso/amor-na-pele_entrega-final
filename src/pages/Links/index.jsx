@@ -8,7 +8,7 @@ import falamulher from "../../assets/img/falamulher.png";
 import amigasdopeito from "../../assets/img/amigasdopeito.png";
 import { Col, Container, Row } from "reactstrap";
 
-export default () => {
+const index = (props) => {
   return (
     <section className="cardsLinks">
       <Container>
@@ -59,3 +59,5 @@ export default () => {
     </section>
   );
 };
+
+export default index;

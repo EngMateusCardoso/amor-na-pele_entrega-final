@@ -1,6 +1,8 @@
 import React from "react";
 import Contatoform from "../../components/Contatoform";
 
-export default () => {
+const index = (props) => {
   return <Contatoform />;
 };
+
+export default index;

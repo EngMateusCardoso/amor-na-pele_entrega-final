@@ -3,7 +3,7 @@ import Carrossel from "../../components/Carrossel";
 import Homecards from "../../components/Homecards";
 import Homenumeros from "../../components/Homenumeros";
 
-export default () => {
+const index = (props) => {
   return (
     <>
       <Carrossel />
@@ -12,3 +12,5 @@ export default () => {
     </>
   );
 };
+
+export default index;

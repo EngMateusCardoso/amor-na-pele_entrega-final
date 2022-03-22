@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 import api from "../../api"
 
-export default () => {
+const Contatoform = (props) => {
 
     const nomeContato = useRef();
     const msg = useRef();
@@ -67,3 +67,5 @@ export default () => {
         </section>
     )
 }
+
+export default Contatoform;

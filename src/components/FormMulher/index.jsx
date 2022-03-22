@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 import api from "../../api"
 
-export default () => {
+const FormMulher = (props) => {
 
   const nomeMulher = useRef();
   const dataNascimento = useRef();
@@ -64,3 +64,5 @@ export default () => {
     </>
   );
 };
+
+export default FormMulher;

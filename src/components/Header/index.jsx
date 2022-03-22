@@ -11,7 +11,7 @@ import {
 import Logo from "../../assets/img/logo_menu.png";
 import ModalLink from "../../components/Login";
 
-export default (props) => {
+const Header = (props) => {
   // Collapse isOpen State
   const [isOpen, setIsOpen] = React.useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -66,3 +66,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default Header;

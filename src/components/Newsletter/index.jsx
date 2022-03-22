@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 import api from "../../api"
 
-export default () => {
+const Newsletter = (props) => {
 
   const emailNewsletter = useRef();
 
@@ -41,3 +41,5 @@ export default () => {
     </section>
   );
 };
+
+export default Newsletter;

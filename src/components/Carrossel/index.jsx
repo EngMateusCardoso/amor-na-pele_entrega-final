@@ -2,7 +2,7 @@ import React from "react";
 import bannerprincipal from "../../assets/img/bannerprincipal.png";
 import bannerprincipal2 from "../../assets/img/bannerprincipal2.png";
 
-export default () => {
+const index = (props) => {
   return (
     <section>
       <div
@@ -81,3 +81,5 @@ export default () => {
     </section>
   );
 };
+
+export default index;

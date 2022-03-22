@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 import api from "../../api"
 
-export default () => {
+const FormEmpresa = (props) => {
 
   const nomeParaContatoEmpresa = useRef();
   const cnpj = useRef();
@@ -129,3 +129,5 @@ export default () => {
     </>
   );
 };
+
+export default FormEmpresa;

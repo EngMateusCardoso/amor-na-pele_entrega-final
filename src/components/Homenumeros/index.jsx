@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const index = (props) => {
   return (
     <section className="container px-4 py-5 mt-2" id="icon-grid">
       <h2 className="pb-2 border-bottom align-items-center">
@@ -35,3 +35,5 @@ export default () => {
     </section>
   );
 };
+
+export default index;

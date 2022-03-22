@@ -1,7 +1,7 @@
 import React from "react";
 import logotipo from "../../assets/img/logotipo.png";
 
-export default () => {
+const index = (props) => {
   return (
     <section id="institucional">
       <div className="col-md-12">
@@ -68,3 +68,5 @@ export default () => {
     </section>
   );
 };
+
+export default index;

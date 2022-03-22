@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => {
+const index = (props) => {
   return (
     <div className="card mb-4 shadow-sm">
       <img className="card-img-top" src={props.foto} alt={props.descricao} />
@@ -20,3 +20,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default index;

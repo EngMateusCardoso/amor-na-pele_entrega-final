@@ -1,6 +1,6 @@
 import Logo from "../../assets/img/logo_menu.png";
 
-export default () => {
+const index = (props) =>  {
   return (
     <footer id="footer">
       <div className="row">
@@ -15,3 +15,5 @@ export default () => {
     </footer>
   );
 };
+
+export default index;

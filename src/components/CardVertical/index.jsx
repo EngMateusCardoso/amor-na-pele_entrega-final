@@ -25,9 +25,7 @@ const index = (props) => {
         </div>
       </div>
       <div className="d-grid gap-2 col-6 mx-auto">
-        <a href="#" className="btn btn-outline-success bg-light">
-          Acessar
-        </a>
+        <input className="btn btn-outline-success bg-light" value="Acessar"/>
       </div>
     </div>
   );

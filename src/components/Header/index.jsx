@@ -9,7 +9,6 @@ import {
   NavbarBrand,
 } from "reactstrap";
 import Logo from "../../assets/img/logo_menu.png";
-import ModalLink from "../../components/Login";
 
 const Header = (props) => {
   // Collapse isOpen State
@@ -53,11 +52,6 @@ const Header = (props) => {
             <NavItem>
               <NavLink className="menu text-white" href="/Links">
                 Links
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="menu text-white" href="">
-                <ModalLink>Login</ModalLink>
               </NavLink>
             </NavItem>
           </Nav>

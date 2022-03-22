@@ -5,7 +5,7 @@ const index = (props) => {
     <div className="card mb-4 shadow-sm">
       <img className="card-img-top" src={props.foto} alt={props.descricao} />
       <div className="card-body">
-        <h2 src={props.titulo}></h2>
+        <h2>{props.titulo}</h2>
         <p src={props.texto}></p>
         <a
           src={props.site}

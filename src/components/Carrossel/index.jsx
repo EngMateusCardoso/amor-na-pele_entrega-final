@@ -24,9 +24,7 @@ const index = (props) => {
                 vida e o destino de milhares de mulheres.
               </h4>
               <p>
-                <a className="btn btn-dark" href="#">
-                  Cadastre-se!
-                </a>
+                <input className="btn btn-dark" value="Cadastre-se!"/>
               </p>
             </div>
           </div>
@@ -43,9 +41,7 @@ const index = (props) => {
                 vida e o destino de milhares de mulheres.
               </h4>
               <p>
-                <a className="btn btn-dark" href="#">
-                  Cadastrar
-                </a>
+              <input className="btn btn-dark" value="Cadastre-se!"/>
               </p>
             </div>
           </div>

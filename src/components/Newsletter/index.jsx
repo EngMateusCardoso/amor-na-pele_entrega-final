@@ -1,6 +1,20 @@
 import React from "react";
+import { useRef } from "react";
+
+import api from "../../api"
 
 export default () => {
+
+  const emailNewsletter = useRef();
+
+  function enviarNewsletter(event) {
+    event.preventDefault()
+    api.post('/CadastroNewsletter', {
+      emailNewsletter: emailNewsletter.current.value,
+    }).then(res => window.location.reload())
+    .catch(err => console.log(err))
+  }
+
   return (
     <section className="newsletter">
       <div className="container">
@@ -8,17 +22,18 @@ export default () => {
           <div className="col-sm-12">
             <div className="content">
               <h2>Receba as nossas novidades!</h2>
-              <div className="input-group">
-                <input
-                  type="email"
-                  className="form-control"
-                  id="emailNewsletter"
-                  placeholder="Informe o seu endereço de e-mail"
-                />
-                <a href="#" className="btn btn-dark">
-                  Inscreva-se agora
-                </a>
-              </div>
+              <form onSubmit={enviarNewsletter}>
+                <div className="input-group">
+                  <input
+                    type="email"
+                   className="form-control"
+                    id="emailNewsletter"
+                    placeholder="Informe o seu endereço de e-mail"
+                    ref={emailNewsletter}
+                  />
+                  <input type="submit" className="btn btn-dark" value="Inscreva-se agora"/>
+                </div>
+              </form>
             </div>
           </div>
         </div>

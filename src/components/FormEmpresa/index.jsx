@@ -3,95 +3,95 @@ import React from "react";
 export default () => {
   return (
     <>
-      <div class="row">
-        <div class="collapse" id="collapseFormEmpresa">
-          <div class="card mb-4 shadow-sm">
-            <h2 class="titleForm">Cadastro Empresa</h2>
-            <form class="cardForm" action="confirmarEmpresa.html">
-              <div class="form-group">
-                <label for="inputNome">Nome do contato:</label>
+      <div className="row">
+        <div className="collapse" id="collapseFormEmpresa">
+          <div className="card mb-4 shadow-sm">
+            <h2 className="titleForm">Cadastro Empresa</h2>
+            <form className="cardForm" action="confirmarEmpresa.html">
+              <div className="form-group">
+                <label for="nomeParaContatoEmpresa">Nome do contato:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputNome"
+                  className="form-control"
+                  id="nomeParaContatoEmpresa"
                   placeholder="Nome"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputCNPJ">CNPJ:</label>
+              <div className="form-group">
+                <label for="Cnpj">CNPJ:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputCNPJ"
+                  className="form-control"
+                  id="Cnpj"
                   placeholder="CNPJ"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputRazaoSocial">Razão Social:</label>
+              <div className="form-group">
+                <label for="RazaoSocial">Razão Social:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputRazaoSocial"
+                  className="form-control"
+                  id="RazaoSocial"
                   placeholder="Razão social"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputTelefone">Telefone:</label>
+              <div className="form-group">
+                <label for="NumeroTelefoneEmpresa">Telefone:</label>
                 <input
                   type="tel"
-                  class="form-control"
-                  id="inputTelefone"
+                  className="form-control"
+                  id="NumeroTelefoneEmpresa"
                   placeholder="Telefone"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputEmail">Endereço de e-mail:</label>
+              <div className="form-group">
+                <label for="emailEmpresa">Endereço de e-mail:</label>
                 <input
                   type="email"
-                  class="form-control"
-                  id="inputEmail"
+                  className="form-control"
+                  id="emailEmpresa"
                   placeholder="email@exemplo.com"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputEstado">Estado:</label>
+              <div className="form-group">
+                <label for="estado">Estado:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputEstado"
+                  className="form-control"
+                  id="estado"
                   placeholder="Estado"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputCidade">Cidade:</label>
+              <div className="form-group">
+                <label for="cidade">Cidade:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputCidade"
+                  className="form-control"
+                  id="cidade"
                   placeholder="Cidade"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputEndereco">Endereço:</label>
+              <div className="form-group">
+                <label for="endereco">Endereço:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputEndereco"
+                  className="form-control"
+                  id="endereco"
                   placeholder="Endereço"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputEspecialidade">
+              <div className="form-group">
+                <label for="descricaoNegocio">
                   Especialidade do seu negócio:
                 </label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputEspecialidade"
+                  className="form-control"
+                  id="descricaoNegocio"
                   placeholder="Informe a especialidade do serviço a ser oferecido"
                 />
               </div>
-              <button type="submit" class="btn btn-dark">
+              <button type="submit" className="btn btn-dark">
                 Cadastrar
               </button>
             </form>

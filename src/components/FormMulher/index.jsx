@@ -3,43 +3,43 @@ import React from "react";
 export default () => {
   return (
     <>
-      <div class="row">
-        <div class="collapse" id="collapseFormMulher">
-          <div class="card mb-4 shadow-sm">
-            <h2 class="titleForm">Cadastro Mulher</h2>
-            <form class="cardForm" action="confirmarPessoa.html">
-              <div class="form-group">
-                <label for="inputNome">Nome completo:</label>
+      <div className="row">
+        <div className="collapse" id="collapseFormMulher">
+          <div className="card mb-4 shadow-sm">
+            <h2 className="titleForm">Cadastro Mulher</h2>
+            <form className="cardForm" action="confirmarPessoa.html">
+              <div className="form-group">
+                <label for="nomeMulher">Nome completo:</label>
                 <input
                   type="text"
-                  class="form-control"
-                  id="inputNome"
+                  className="form-control"
+                  id="nomeMulher"
                   placeholder="Nome"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputNascimento">Data de nascimento:</label>
-                <input type="date" class="form-control" id="inputNascimento" />
+              <div className="form-group">
+                <label for="dataNascimento">Data de nascimento:</label>
+                <input type="date" class="form-control" id="dataNascimento" />
               </div>
-              <div class="form-group">
-                <label for="inputTelefone">Telefone:</label>
+              <div className="form-group">
+                <label for="numeroTelefoneMulher">Telefone:</label>
                 <input
                   type="tel"
-                  class="form-control"
-                  id="inputTelefone"
+                  className="form-control"
+                  id="numeroTelefoneMulher"
                   placeholder="Telefone"
                 />
               </div>
-              <div class="form-group">
-                <label for="inputEmail">Endereço de e-mail:</label>
+              <div className="form-group">
+                <label for="emailMulher">Endereço de e-mail:</label>
                 <input
                   type="email"
-                  class="form-control"
-                  id="inputEmail"
+                  className="form-control"
+                  id="emailMulher"
                   placeholder="email@exemplo.com"
                 />
               </div>
-              <button type="submit" class="btn btn-dark">
+              <button type="submit" className="btn btn-dark">
                 Cadastrar
               </button>
             </form>

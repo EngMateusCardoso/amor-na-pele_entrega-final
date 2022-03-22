@@ -30,27 +30,27 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar className="justify-content-end">
           <Nav className="justify-content-center">
             <NavItem>
-              <NavLink className="menu text-white" href="/">
+              <NavLink className="menu text-white" to="/">
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu text-white" href="/cadastro">
+              <NavLink className="menu text-white" to="/Cadastro">
                 Cadastro
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu text-white" href="/Parceiros">
+              <NavLink className="menu text-white" to="/Parceiros">
                 Parceiros
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu text-white" href="/Contato">
+              <NavLink className="menu text-white" to="/Contato">
                 Contato
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu text-white" href="/Links">
+              <NavLink className="menu text-white" to="/Links">
                 Links
               </NavLink>
             </NavItem>

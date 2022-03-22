@@ -13,6 +13,8 @@ import Logo from "../../assets/img/logo_menu.png";
 export default (props) => {
   // Collapse isOpen State
   const [isOpen, setIsOpen] = React.useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
     <div className="navbar">
       <Navbar color="transparent" light expand="md" width="100%">
@@ -24,12 +26,8 @@ export default (props) => {
             alt="logotipo da ONG Amor na Pele"
           />
         </NavbarBrand>
-        <NavbarToggler
-          onClick={() => {
-            setIsOpen(!isOpen);
-          }}
-        />
-        <Collapse isOpen={isOpen} navbar>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar className="justify-content-end">
           <Nav className="justify-content-center">
             <NavItem>
               <NavLink class="menu" href="/">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => {
+const index = (props) => {
   return (
     <div className="card border-light shadow-sm h-md-250 mb-12">
       <div className="card-header">Nome do parceiro 1</div>
@@ -32,3 +32,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default index;

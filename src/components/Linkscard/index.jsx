@@ -17,7 +17,7 @@ export default (props) => {
                 <p src={props.texto}></p>
                 <a
                   src={props.site}
-                  class="btn btn-dark"
+                  className="btn btn-dark"
                   href={props.site}
                   role="button"
                   target="_blank"

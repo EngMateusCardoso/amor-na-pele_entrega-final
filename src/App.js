@@ -8,7 +8,6 @@ import Cadastro from "./pages/Cadastro";
 import Contato from "./pages/Contato";
 import Links from "./pages/Links";
 import Parceiros from "./pages/Parceiros";
-import Login from "./pages/Login";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -23,7 +22,6 @@ function App() {
           <Route path="/Contato" element={<Contato />}></Route>
           <Route path="/Links" element={<Links />}></Route>
           <Route path="/Parceiros" element={<Parceiros />}></Route>
-          <Route path="/Login" element={<Login />}></Route>
         </Routes>
       </Router>
       <Newsletter />

@@ -7,7 +7,7 @@ export default () => {
       <button
         id="btnmodal"
         type="button"
-        class="btn text-white"
+        className="btn text-white"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
@@ -16,7 +16,7 @@ export default () => {
 
       {/*Modal*/}
       <div
-        class="modal fade"
+        className="modal fade"
         id="staticBackdrop"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
@@ -25,15 +25,15 @@ export default () => {
         aria-hidden="true"
       />
 
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="staticBackdropLabel">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <div className="modal-header">
+            <h3 className="modal-title" id="staticBackdropLabel">
               Login
             </h3>
             <button
               type="button"
-              class="btn-close"
+              className="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
               id="btn-modal"
@@ -41,15 +41,15 @@ export default () => {
           </div>
 
           {/*Área do Form Login*/}
-          <div class="modal-body">
-            <div class="row">
-              <div class="card mb-4" id="formLogin">
-                <form class="cardForm" action="index.html">
-                  <div class="form-group">
+          <div className="modal-body">
+            <div className="row">
+              <div className="card mb-4" id="formLogin">
+                <form className="cardForm" action="index.html">
+                  <div className="form-group">
                     <label for="inputLogin">Login:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="inputLogin"
                       placeholder="Digite seu e-mail"
                     />

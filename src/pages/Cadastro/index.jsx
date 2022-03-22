@@ -1,33 +1,34 @@
 import React from "react";
 import cardcadastropessoa from "../../assets/img/cardcadastropessoa.jpg";
 import cardcadastroempresa from "../../assets/img/cardcadastroempresa.jpg";
+import ModalLink from "../../components/FormMulher";
 
 export default () => {
   return (
-    <section class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
+    <section className="album py-5 bg-light">
+      <div className="container">
+        <div className="row">
           {/*Primeiro Card*/}
-          <div class="col-md-6">
-            <div class="card mb-4 shadow-sm">
+          <div className="col-md-6">
+            <div className="card mb-4 shadow-sm">
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={cardcadastropessoa}
                 alt="Card Cadastrar Mulher"
               />
 
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Cadastrar Mulher</p>
+              <div className="card-body">
+                <h5 className="card-title"></h5>
+                <p className="card-text">Cadastrar Mulher</p>
                 <a
-                  class="btn btn-dark"
+                  className="btn btn-dark"
                   data-bs-toggle="collapse"
                   href="#collapseFormMulher"
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  Cadastrar
+                  <ModalLink>Cadastrar</ModalLink>
                 </a>
               </div>
             </div>
@@ -35,19 +36,19 @@ export default () => {
           {/*Primeiro Card*/}
 
           {/*Segundo Card*/}
-          <div class="col-md-6">
-            <div class="card mb-4 shadow-sm">
+          <div className="col-md-6">
+            <div className="card mb-4 shadow-sm">
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={cardcadastroempresa}
                 alt="Card Cadastrar Empresa"
               />
 
-              <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text">Cadastrar Empresa</p>
+              <div className="card-body">
+                <h5 className="card-title"></h5>
+                <p className="card-text">Cadastrar Empresa</p>
                 <a
-                  class="btn btn-dark"
+                  className="btn btn-dark"
                   data-bs-toggle="collapse"
                   href="#collapseFormEmpresa"
                   role="button"

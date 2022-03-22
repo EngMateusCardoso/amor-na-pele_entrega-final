@@ -30,32 +30,32 @@ export default (props) => {
         <Collapse isOpen={isOpen} navbar className="justify-content-end">
           <Nav className="justify-content-center">
             <NavItem>
-              <NavLink class="menu" href="/">
+              <NavLink className="menu" href="/">
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" href="/cadastro">
+              <NavLink className="menu" href="/cadastro">
                 Cadastro
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" href="/Parceiros">
+              <NavLink className="menu" href="/Parceiros">
                 Parceiros
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" href="/Contato">
+              <NavLink className="menu" href="/Contato">
                 Contato
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" href="/Links">
+              <NavLink className="menu" href="/Links">
                 Links
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink class="menu" href="/Login">
+              <NavLink className="menu" href="/Login">
                 Login
               </NavLink>
             </NavItem>

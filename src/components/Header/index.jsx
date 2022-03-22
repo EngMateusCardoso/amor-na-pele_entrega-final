@@ -35,9 +35,9 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu text-white" to="/Cadastro">
+              <Link className="menu text-white" to="/Cadastro">
                 Cadastro
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
               <NavLink className="menu text-white" to="/Parceiros">

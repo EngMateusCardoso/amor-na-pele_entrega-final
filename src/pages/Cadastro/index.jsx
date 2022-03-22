@@ -15,8 +15,18 @@ import {
 } from "reactstrap";
 
 const Cadastro = (props) => {
+
   const [isOpen, setIsOpen] = React.useState(false);
-  const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => {
+    setIsOpen(!isOpen)
+    setIsOpen2(false)
+  };
+
+  const [isOpen2, setIsOpen2] = React.useState(false);
+  const toggle2 = () => {
+    setIsOpen2(!isOpen2)
+    setIsOpen(false)
+  } ;
 
   return (
     <section className="album py-5 bg-light">
@@ -35,11 +45,11 @@ const Cadastro = (props) => {
                   <div className="card-body">
                     <CardHeader>
                       <p className="card-text">Cadastrar Mulher</p>
-                      <ButtonToggle eventKey="0" onClick={toggle}>
+                      <ButtonToggle eventKey="0" onClick={toggle2}>
                         Cadastrar
                       </ButtonToggle>
                     </CardHeader>
-                    <Collapse eventKey="0" isOpen={isOpen}>
+                    <Collapse eventKey="0" isOpen={isOpen2}>
                       <CardBody>
                         <FormMulher />
                       </CardBody>

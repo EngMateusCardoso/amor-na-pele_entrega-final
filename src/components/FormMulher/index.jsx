@@ -1,73 +1,45 @@
-import React, { useState } from "react";
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
+import React from "react";
 
-const ModalLink = () => {
-  const [modal, setModal] = useState(false);
-  const toggle = () => setModal(!modal);
-
+export default () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <Button onClick={toggle}>Cadastrar</Button>
-      <Modal size="xl" isOpen={modal} toggle={toggle}>
-        <ModalHeader>
-          <h2 className="titleForm">Cadastro Mulher</h2>
-        </ModalHeader>
-        <ModalBody style={{ height: "75vh" }}>
-          <div className="row">
-            <div className="collapse" id="collapseFormMulher">
-              <div className="card mb-4 shadow-sm">
-                <form className="cardForm" action="confirmarPessoa.html">
-                  <div className="form-group">
-                    <label for="nomeMulher">Nome completo:</label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="nomeMulher"
-                      placeholder="Nome"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label for="dataNascimento">Data de nascimento:</label>
-                    <input
-                      type="date"
-                      class="form-control"
-                      id="dataNascimento"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label for="numeroTelefoneMulher">Telefone:</label>
-                    <input
-                      type="tel"
-                      className="form-control"
-                      id="numeroTelefoneMulher"
-                      placeholder="Telefone"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label for="emailMulher">Endereço de e-mail:</label>
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="emailMulher"
-                      placeholder="email@exemplo.com"
-                    />
-                  </div>
-                  <button type="submit" className="btn btn-dark">
-                    Cadastrar
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button color="success" onClick={toggle}>
-            OK{" "}
-          </Button>
-        </ModalFooter>
-      </Modal>
-    </div>
+    <>
+      <h2 class="titleForm">Cadastro Mulher</h2>
+      <form class="cardForm" action="confirmarPessoa.html">
+        <div class="form-group">
+          <label for="inputNome">Nome completo:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputNome"
+            placeholder="Nome"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputNascimento">Data de nascimento:</label>
+          <input type="date" class="form-control" id="inputNascimento" />
+        </div>
+        <div class="form-group">
+          <label for="inputTelefone">Telefone:</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="inputTelefone"
+            placeholder="Telefone"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Endereço de e-mail:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail"
+            placeholder="email@exemplo.com"
+          />
+        </div>
+        <button type="submit" class="btn btn-dark">
+          Cadastrar
+        </button>
+      </form>
+    </>
   );
 };
-
-export default ModalLink;

@@ -9,6 +9,7 @@ import {
   NavbarBrand,
 } from "reactstrap";
 import Logo from "../../assets/img/logo_menu.png";
+import ModalLink from "../../components/Login";
 
 export default (props) => {
   // Collapse isOpen State
@@ -30,33 +31,33 @@ export default (props) => {
         <Collapse isOpen={isOpen} navbar className="justify-content-end">
           <Nav className="justify-content-center">
             <NavItem>
-              <NavLink className="menu" href="/">
+              <NavLink className="menu text-white" href="/">
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu" href="/cadastro">
+              <NavLink className="menu text-white" href="/cadastro">
                 Cadastro
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu" href="/Parceiros">
+              <NavLink className="menu text-white" href="/Parceiros">
                 Parceiros
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu" href="/Contato">
+              <NavLink className="menu text-white" href="/Contato">
                 Contato
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu" href="/Links">
+              <NavLink className="menu text-white" href="/Links">
                 Links
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="menu" href="/Login">
-                Login
+              <NavLink className="menu text-white" href="">
+                <ModalLink>Login</ModalLink>
               </NavLink>
             </NavItem>
           </Nav>

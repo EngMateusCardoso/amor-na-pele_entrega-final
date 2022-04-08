@@ -21,8 +21,8 @@ const index = (props) => {
               da conexão entre histórias e pessoas. Também acreditamos que a
               autoestima está conectada com saúde, bem-estar e qualidade de
               vida. Foi com isso em mente, que nos unimos para proporcionar o
-              elo entre mulheres em busca de uma solução e ONGs que oferecem um
-              atendimento qualificado e humanizado.
+              elo entre mulheres em busca de uma solução e profissionais e/ou
+              ONGs que oferecem um atendimento qualificado e humanizado.
             </p>
           </div>
         </div>

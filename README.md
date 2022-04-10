@@ -15,4 +15,4 @@ https://amornapele.netlify.app/
 https://github.com/EngMateusCardoso/api-amornapele-recode/blob/main/Apresentacao.pdf
 
 ## Repositório Back-End
-https://github.com/EngMateusCardoso/api-amornapele-recode/blob/main/README.md
+https://github.com/EngMateusCardoso/api-amornapele-recode

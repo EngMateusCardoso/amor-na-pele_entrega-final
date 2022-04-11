@@ -50,7 +50,7 @@ footer ul li a {
   border: none;
 }
 /*Página Home*/
-/*Carroseel*/
+/*Carrossel*/
 .carousel-item img {
   width: 100%;
 }
@@ -155,4 +155,8 @@ label {
 }
 .card-text1 {
   text-align: justify;
+}
+/*Página Links*/
+.cardsLinks {
+  margin-top: 40px;
 }

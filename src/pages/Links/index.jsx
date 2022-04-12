@@ -27,7 +27,7 @@ const index = (props) => {
               foto={amigasdopeito}
               titulo="Amigas do Peito"
               descricao="Amigas do Peito"
-              texto="A ONG Amigas do Peito surgiu do sonho de Márcia Brasil, e oferece gratuitamente a pigmentação de redesenho em Aréolas Mamárias, buscando assim resgatar a autoestima de mulheres que passaram por mastectomia."
+              texto="A ONG AMIGAS DO PEITO surgiu do sonho de Márcia Brasil, e oferece gratuitamente a pigmentação de redesenho em Aréolas Mamárias, buscando assim resgatar a autoestima de mulheres que passaram por mastectomia."
               site="https://amigasdopeitors.com.br/"
             ></Linkscard>
           </Col>
@@ -38,7 +38,7 @@ const index = (props) => {
               foto={socialcare}
               titulo="Social Care"
               descricao="Logotipo da ONG Social Care"
-              texto="O Projeto da ONG SOCIAL CARE busca oferecer o acesso às pessoas menos favorecidas aos procedimentos cirúrgicos, minimizando seus custos, de maneira a tornar a cada dia mais acessível a maioria da população."
+              texto="O Projeto da ONG SOCIAL CARE busca oferecer o acesso das pessoas menos favorecidas aos procedimentos cirúrgicos, minimizando seus custos, de maneira a tornar cada dia mais acessível a maioria da população."
               site="https://www.socialcare.com.br/#firstPage"
             ></Linkscard>
           </Col>
@@ -47,7 +47,7 @@ const index = (props) => {
               foto={falamulher}
               titulo="Fala Mulher"
               descricao="Logotipo da Associação Fala Mulher"
-              texto="A Associação Fala Mulher é uma Organização sem fins lucrativos, que tem como objrtivo atuar no enfrentamento à violência doméstica contra a mulher. Seu objetivo é empoderar mulheres, buscando assim fortalecer as famílias."
+              texto="A ASSOCIAÇÃO FALA MULHER é uma Organização sem fins lucrativos, que tem como proposta atuar no enfrentamento à violência doméstica contra a mulher. Seu objetivo é empoderar mulheres, buscando assim fortalecer as famílias."
               site="https://www.falamulher.ong.br/"
             ></Linkscard>
           </Col>
